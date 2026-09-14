@@ -22,3 +22,4 @@ google-generativeai
 langchain-ollama
 
 streamlit
+pydantic
