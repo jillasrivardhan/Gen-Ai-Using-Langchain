@@ -6,5 +6,6 @@ embedding_model = HuggingFaceEmbeddings(
 texts = ["This is a test document.", "This is another test document."]
 
 embeddings = embedding_model.embed_documents(texts)
+# embeddings = embedding_model.embed_query(texts)
 
 print(str(embeddings))
