@@ -1,3 +1,5 @@
+# This is used to import all libraries
+
 langchain
 langchain-core
 langchain-community
@@ -5,22 +7,41 @@ langchain-community
 numpy
 scikit-learn
 
+# This is for integrating hugging face models
+
 langchain-huggingface
 transformers
 huggingface-hub
 
-python-dotenv
+# This is for openai
 
 langchain-openai
 openai
 
+# This is for anthropic models
+
 langchain-anthropic
+
+# This is for google genai
 
 langchain-google-genai
 google-generativeai
 
+# This is for loading ollama models which are locally downloaded in our system
+
 langchain-ollama
 
+# This is for ui
+
 streamlit
+
+# This is for structured output
+
 pydantic
+
+# This is for loading environment variables
+
 python-dotenv
+
+# This is used to display the flow of chains
+gridalf
