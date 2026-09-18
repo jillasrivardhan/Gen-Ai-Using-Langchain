@@ -12,8 +12,9 @@ prompt = PromptTemplate(
    input_variables=['topic']
 )
 
-model = LLMChain(llm=model, prompt=prompt)
+model_1 = LLMChain(llm=model, prompt=prompt)
 
-res = model.invoke({'topic':'ai'})
+res = model_1.invoke({'topic':'ai'})
+# res = model_1.run({'topic':'ai'})
 
 print(res['text'])
